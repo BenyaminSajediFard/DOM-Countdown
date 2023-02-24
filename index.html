@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Timer</title>
+  </head>
+  <body>
+    <section class="timer-box">
+      <svg width="300px" height="300px">
+        <circle
+          class="timer-svg"
+          r="125"
+          cx="110"
+          cy="150"
+          fill="transparent"
+          stroke="#df3d42bd"
+          stroke-width="8"
+          stroke-dasharray="785.39"
+          stroke-dashoffset="0"
+          transform="rotate(-90 120 120)"
+        />
+      </svg>
+      <input class="duration" />
+      <div class="btns">
+        <button class="btn start">Start</button>
+        <button class="btn pause">Pause</button>
+      </div>
+    </section>
+    <script src="timer.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
